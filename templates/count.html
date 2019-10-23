@@ -1,0 +1,19 @@
+<h1> the result {{ counter }}</h1>
+<h1>user text </h1>
+{{ text }}
+
+<h1>Word Count :</h1>
+{% for word,countss in totalsorted %}
+
+{{ word }} - {{ countss }}
+<br />
+
+
+
+
+{% endfor %}
+<br />
+<a href="{% url 'home' %}">Home</a>
+
+<!-- <textarea cols="20" rows="1" name="result"> -->
+<!-- </textarea> -->
